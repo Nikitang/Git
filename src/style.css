@@ -9,14 +9,21 @@ logo {
     height: 50px;
 } 
 
-div:hover  {
+div  {
 font-family: serif;
 font-size: 20px;
 width: 600px;
-border: 5px solid #blue;
+border: 2px solid transparent;
+position: relative;
+left: 400px;
+text-align: center;
+
+}
+div:hover {
+border-color: #999;
+border-radius: 2px;
 }
 
-video {
-display: flex;
-justify-content: center;
+.abs {
+    text-align: center;
 }
