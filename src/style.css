@@ -24,6 +24,7 @@ border-color: #999;
 border-radius: 2px;
 }
 
-.abs {
-    text-align: center;
+footer {
+height: 150px;
+background: repeating-linear-gradient(45deg, red 50px, orange 100px, yellow 150px);
 }
